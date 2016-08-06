@@ -1,0 +1,10 @@
+## Any files listed in block below
+## will go through a replace.sh to replace
+
+## BEGIN_REPLACE_VARS_AND_COPY_BLOCK
+
+lambda/functions/lookup_token/function.json
+lambda/functions/post_token/function.json
+redir-v1-swagger.yml
+
+## END_REPLACE_VARS_AND_COPY_BLOCK

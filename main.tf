@@ -1,7 +1,5 @@
 provider "aws" {
-	access_key = "${var.aws_access_key}"
-	secret_key = "${var.aws_secret_key}"
-	region = "${var.aws_region}"
+	# Filled in by environment variables
 }
 
 resource "aws_dynamodb_table" "redir_urls" {

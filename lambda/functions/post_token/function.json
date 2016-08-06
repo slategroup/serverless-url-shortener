@@ -1,6 +1,6 @@
 {
-  "name": "redir_post_token",
-  "description": "post a token and url",
+  "name": "redir_lookup_token",
+  "description": "Retrieve url for token",
   "runtime": "nodejs",
   "memory": 128,
   "timeout": 5,

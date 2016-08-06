@@ -10,11 +10,21 @@ Related blog post: [Build a serverless URL shortener with AWS Lambda and API Gat
 * Lambda JavaScript function back-end
 * DynamoDB datastore
 
+
 ### Required AWS resources
+
+[Install and configure AWS CLI](https://aws.amazon.com/cli/) for the AWS Account you would like to use.
 
 The `main.tf` [Terraform](https://www.terraform.io/) file contains basic resources required for DynamoDB including a table and IAM role with associated policies.
 
 To use this [install and configure Terraform](https://www.terraform.io/intro/getting-started/install.html) for your AWS account.
+
+### Variable setup
+
+After AWS cli is set up, you'll need to generate several files that contain AWS variables.
+These are listed in the .gitignore. Adding files to .gitignore means a copy of that file
+that contains the 
+
 
 ### API Gateway
 
